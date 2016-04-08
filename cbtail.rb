@@ -11,6 +11,6 @@ class Cbtail < Formula
 
   # depends_on "cmake" => :build
   def install
-    bin.install cbtail
+    bin.install 'cbtail'
   end
 end
