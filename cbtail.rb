@@ -3,7 +3,7 @@ class Cbtail < Formula
   homepage ""
   url "https://github.com/folkol/cbtail/archive/0.0.5.tar.gz"
   version "0.0.5"
-  sha256 "eda1f2dafef4e864585bf3770975000d6aa7d6184721b19f452f07c50e976e27"
+  sha256 "f23f4bb249139ed3e18a569fcb662105ae5a78c73e60b4eb5ffcd21250498a5e"
 
   # depends_on "cmake" => :build
   def install
