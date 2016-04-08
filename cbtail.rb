@@ -5,9 +5,9 @@
 class Cbtail < Formula
   desc ""
   homepage ""
-  url "https://github.com/folkol/homebrew-tap/blob/master/releases/cbtail-0.0.2.tar.gz"
-  version "0.0.2"
-  sha256 "9487f53ac9a144a6b36f7b6f093b4f84af287de9dcda84ad7ea21e8f2d2dd54f"
+  url "https://github.com/folkol/homebrew-tap/raw/master/releases/cbtail-0.0.1.tar.gz"
+  version "0.0.1"
+  sha256 "af550161b712c73f8bd1400e01bc8aa7796e13dd52ddf52281cb20c99516b260"
 
   # depends_on "cmake" => :build
   def install
