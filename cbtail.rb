@@ -11,6 +11,7 @@ class Cbtail < Formula
 
   # depends_on "cmake" => :build
   def install
+    prefix.install 'cbtail-0.0.1-jar-with-dependencies.jar'
     bin.install 'cbtail'
   end
 end
