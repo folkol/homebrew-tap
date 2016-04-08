@@ -5,13 +5,13 @@
 class Cbtail < Formula
   desc ""
   homepage ""
-  url "https://github.com/folkol/homebrew-tap/raw/master/releases/cbtail-0.0.1.tar.gz"
+  url "https://github.com/folkol/homebrew-tap/blob/master/releases/cbtail-0.0.2.tar.gz"
   version "0.0.1"
-  sha256 "7eb1712bc65ede08b1169a46f3892f1209ed48f9c2edd06c8be11afd2a68a561"
+  sha256 "9487f53ac9a144a6b36f7b6f093b4f84af287de9dcda84ad7ea21e8f2d2dd54f"
 
   # depends_on "cmake" => :build
   def install
-    prefix.install 'cbtail-0.0.1-jar-with-dependencies.jar'
+    prefix.install 'cbtail.jar'
     bin.install 'cbtail'
   end
 end
