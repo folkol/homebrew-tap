@@ -6,8 +6,8 @@ Homebrew tap!
     $ brew install cbtail
 
 # Update Formula:
- - Tag and push new version of tool
- - Find out shasum:
- $ curl -L -s https://github.com/folkol/cbtail/archive/0.0.6.tar.gz | shasum -a 256
- - Update tool.rb
- - Commit and push!
+ - Decide new version name
+ - Add tarball with tool to releases/${tool}/${version}
+ - Calcualate shasum for said tarball ('sha -a sha256 releases/sedsed/1.0.tar.gz')
+ - Add/update tool.rb (url "https://github.com/folkol/homebrew-tap/raw/master/releases/sedsed/1.0.tar.gz")
+
