@@ -3,7 +3,7 @@ class Jgrep < Formula
   homepage "https://github.com/folkol/jgrep"
   url "https://github.com/folkol/homebrew-tap/raw/master/releases/jgrep/0.3.tar.gz"
   version "0.3"
-  sha256 "fbb4dd8d6d1b58e05b81ffe49569cddad7ac1be5a77a9349ef4c30c6b662255f"
+  sha256 "9827c4d6b28df6516b216e063c0d76baa46ba272f07ae825951f136d35ba807f"
 
   bottle :uneeded
 
