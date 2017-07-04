@@ -1,4 +1,4 @@
-class Cbtail < Formula
+class Cbfailover < Formula
   desc ""
   homepage ""
   url "https://github.com/folkol/cb-failover-log-logger/archive/0.3.tar.gz"
