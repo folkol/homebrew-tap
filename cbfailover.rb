@@ -9,7 +9,7 @@ class Cbfailover < Formula
   depends_on "coreutils"
 
   def install
-    prefix.install 'target/ck-failover-log-logger-jar-with-dependencies.jar'
+    prefix.install 'target/cb-failover-log-logger-jar-with-dependencies.jar'
     bin.install 'scripts/cbfailover'
   end
 end
