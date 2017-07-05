@@ -1,9 +1,9 @@
 class Cbfailover < Formula
   desc ""
   homepage ""
-  url "https://github.com/folkol/cb-failover-log-logger/archive/0.6.tar.gz"
-  version "0.0.6"
-  sha256 "2816d37b88c1fb40e273ebce4c8e5d9c77d85e29b6c7b5f84368ed0ddba9cb0d"
+  url "https://github.com/folkol/cb-failover-log-logger/archive/0.7.tar.gz"
+  version "0.0.7"
+  sha256 "0f0086a61161de7c81932940529fe8e0b1440cf75ffc655051d14cad551db14d"
 
   # depends_on "cmake" => :build
   depends_on "coreutils"
